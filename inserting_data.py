@@ -2,7 +2,7 @@ import asyncio
 import pymongo
 from ruuvitag_sensor.ruuvi import RuuviTagSensor
 from datetime import datetime
-from pytz import timezone
+import pytz
 
 myclient = pymongo.MongoClient("mongodb://localhost:27017")
 mydb = myclient["Ruuvi_tag"]
