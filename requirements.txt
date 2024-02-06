@@ -4,4 +4,4 @@ dnspython==2.5.0
 pymongo==4.6.1
 reactivex==4.0.4
 ruuvitag-sensor==2.3.0
-typing_extensions==4.9.0
+pytz==2024.1
