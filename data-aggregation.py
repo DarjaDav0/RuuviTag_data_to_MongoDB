@@ -2,7 +2,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from pymongo import MongoClient
 from datetime import datetime
-#import pandas as pd
 
 # Create a client connection to your MongoDB instance
 client = MongoClient("mongodb://localhost:27017")
