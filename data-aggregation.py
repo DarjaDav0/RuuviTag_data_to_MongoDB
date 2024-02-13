@@ -96,15 +96,3 @@ plt.show()
 print(f"Day's average humidity: {df['day_average_humidity_percent'][0]}%")
 print(f"Day's average temperature: {df['day_average_temperature'][0]}°C")
 print(f"Day's average pressure: {df['day_average_pressure_hPa'][0]} hPa")
-
-# Print the aggregation results
-"""for document in aggregate_result:
-    print(f"Day's average humidity: {document['day_average_humidity_percent']}%")
-    print(f"Day's average temperature: {document['day_average_temperature']}°C")
-    print(f"Day's average pressure: {document['day_average_pressure_hPa']} hPa")
-    print("Hourly averages:")
-    for hourly_average in document['hourly_averages']:
-        print(f"  Hour: {hourly_average['_id']['hour']}")
-        print(f"  Average humidity: {hourly_average['average_humidity_percent']}%")
-        print(f"  Average temperature: {hourly_average['average_temperature']}°C")
-        print(f"  Average pressure: {hourly_average['average_pressure_hPa']} hPa")"""
