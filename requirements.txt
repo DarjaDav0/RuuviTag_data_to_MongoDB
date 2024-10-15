@@ -1,7 +1,7 @@
 bleak==0.21.1
 bleak-winrt==1.2.0
-dnspython==2.5.0
-pymongo==4.6.1
+dnspython==2.6.1
+pymongo==4.6.3
 reactivex==4.0.4
 ruuvitag-sensor==2.3.0
 pytz==2024.1
