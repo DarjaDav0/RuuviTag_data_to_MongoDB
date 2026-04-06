@@ -15,7 +15,7 @@ async def main():
         mac_address = data[0] 
         sensor_data = data[1]
 
-        sensor_data["CE:1B:AC:05:D6:3F"] = mac_address
+        sensor_data["YOUR:MAC:ADDRESS:HERE"] = mac_address
 
         # Add the current timestamp and timezone to the sensor data
         sensor_data["timestamp"] = datetime.now()
